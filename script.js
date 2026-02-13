@@ -12,16 +12,16 @@ const eventContainer = document.getElementById("eventContainer");
 let sampleEvent =
     [
         {
-            title: "web dev",
-            date: "4-6-2026",
+            title: "Web Dev",
+            date: "13-11-2026",
             category: "workshop",
-            description: "ahgs h adg ihai dgjabds"
+            description: "Workshop Means Workshop"
         },
         {
-            title: "web dev2",
-            date: "4-7-2026",
+            title: "Web Dev_2",
+            date: "12-11-2026",
             category: "conference",
-            description: "ahgs dsfchjh adg ihai dgjabds"
+            description: "Conference means Conference"
         }
     ]
 
@@ -71,7 +71,7 @@ eventForm.addEventListener("submit", (event) => {
 // remove event from eventContainer
 eventContainer.addEventListener("click", (event) => {
     console.log("inside delete");
-    const card = event.target.closest("event-card");
+    const card = event.target.closest(".event-card");
     console.log(card);
     if (event.target.classList.contains("delete-btn")) {
         card.remove();

@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(120deg, #4e73df, #1cc88a);
+    background: linear-gradient(120deg, #747780, #1cc88a);
     padding: 30px 15px;
     color: #333;
 }
@@ -46,7 +46,7 @@ h1 {
 /* Section Titles */
 h2 {
     margin-bottom: 15px;
-    color: #4e73df;
+    color: #021a09;
 }
 
 /* Form */
